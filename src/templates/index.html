@@ -1,27 +1,31 @@
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
-</head>
+<link href="stylesheet/style.css" rel="stylesheet">
+<form method="POST">
+<select name="Week">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+   <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
 
-<body>
-<div class="container">
-	<div class="box1"><a href="/newpost">Create a new post!</a></div>
-	<div class="box2"><a href="/logout">Log Out</a></div>
-	</div>
-<div class="welcome">
-<b>
-Welcome, {{username}}.
-</b>
-</div>
-{% for post in posts %}
-<div class="post">
-	<div class="container"><div class="title"><b>{{post.title}}</b></div>
-	<div class="date"><b>{{post.created}}</b></div></div><hr>
-	<div class="content">{{post.content.replace('\n',"<br>")| safe}}</div>
 
-	</div>
-{% endfor %}
-</body>
-</html>
+</select>
+<br>
+<input type="submit">
+
+</form>
+<br>
+You can also sign up for weekly text updates!
+<form method="POST">
+<input type="text" placeholder ="Phone Number">
+<input type="text" placeholder="Due Date">
+<input type="submit">
+</form>
+<html>

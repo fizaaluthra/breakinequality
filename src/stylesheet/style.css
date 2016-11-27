@@ -3,146 +3,16 @@ body, .perm{
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 20px;
-
-}
-  
-a{text-decoration: none;}
-a:link {color: black;}      
-a:visited {color: black;} 
-a:hover {color: #a5a5a5;}   
-a:active {color: black;} 
-.post{
-  padding-bottom: 10px;
-  padding-top: 40px;
-}
-
-.heading{
-	font-size: 200%;
-}
-.container{
-  display: flex;
-}
-.title{
-  width: 50%;
-  color: #6d6d6d;
-  font-size: 25px;
-}
-.date{
-  width: 50%;
-  text-align: right;
-  color: #6d6d6d;
-
-}
-.content{
-  color: black;
-  font-size: 20px;
-}
-.welcome{
-	width: 110%;
-	height: 20%;
-	font-size: 200%;
-	text-align: center;
-	padding-top: 30px;
-  margin-bottom: -40px;
-
-
-}
-.mytext {
-    width: 400px;
-  	height: 10%;
-  	font-size: 110%;
-  	padding: 20px;
-
-}
-.mytextarea{
-  width: 400px;
-  height: 30%;
-  font-size: 110%;
-  padding: 20px;
-}
-.mytextdiv{
-	padding: 20px;
-}
-
-.signup{
-	text-align: center;
-	padding-top: 10%;
-}
-.login{
   text-align: center;
-  padding-top: 10%;
+  padding-top: 80px;
 }
-.newpost{
-  text-align: center;
-  padding-top: 10%;
-}
-
-input[type=submit] {
-    padding: 5px; 
-    border:0 none;
-    height: 50px;
-    width: 100px;
-    cursor:pointer;
-    font-size: 150%;
-   	background-color: white;
-   	border: 2px solid black;
-   	margin: 20px;
-   
-}
-.Success{
-  text-align: center;
+select{
+  width: 200px;
+  height: 75px;
   font-size: 30px;
-  color: #6d6d6d;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
 }
-input[type=submit]:hover {
-    background-color: black;
-    color: white;
-    border: 2px solid black;
-    transition: 0.4s;
-}
-input:focus,textarea:focus {
-    outline-color: black;
-    transition: 0.4s;
-}
-.box1{
-  width: 50%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 20px;
-}
-.box2{
-  width: 50%;
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 20px;
-}
-@media screen and (max-width: 550px) {
-  .welcome{
-    font-size: 170%;
-    padding-top: 20px;
 
-  }
-  .title{
-    font-size: 22px;
-  }
-  .content{
-    font-size: 20px;
-  }
-  .container{
-    display: block;
-  }
-  .date{
-    text-align: left;
-  }
-  .box2{
-    text-align: left;
-  }
-  .mytext, .mytextarea{
-    width: 100%;
-  }
-  div{
-    min-width: 48px;
-    min-height: 48px;
-  }
-}
